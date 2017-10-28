@@ -17,8 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        let a: [Int] = LeetCode.twoSum1([3,3], 6)
+        let a: [Int] = TwoSum.twoSum1([3,3], 6)
         print("answer ===  \(a)")
+        
+        
+        
+        
         
         return true
     }

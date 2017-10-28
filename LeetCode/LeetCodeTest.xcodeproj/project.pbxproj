@@ -13,6 +13,8 @@
 		CD449B461FA1EBFB00420E0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD449B451FA1EBFB00420E0F /* Assets.xcassets */; };
 		CD449B491FA1EBFB00420E0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD449B471FA1EBFB00420E0F /* LaunchScreen.storyboard */; };
 		CD449B511FA1EC4400420E0F /* LeetCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD449B501FA1EC4400420E0F /* LeetCode.swift */; };
+		CDAEFF111FA4592200E1AB9C /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAEFF101FA4592200E1AB9C /* TwoSum.swift */; };
+		CDAEFF131FA45A3000E1AB9C /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAEFF121FA45A3000E1AB9C /* LongestSubstringWithoutRepeatingCharacters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CD449B481FA1EBFB00420E0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD449B4A1FA1EBFB00420E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD449B501FA1EC4400420E0F /* LeetCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode.swift; sourceTree = "<group>"; };
+		CDAEFF101FA4592200E1AB9C /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		CDAEFF121FA45A3000E1AB9C /* LongestSubstringWithoutRepeatingCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringWithoutRepeatingCharacters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +63,38 @@
 				CD449B3E1FA1EBFB00420E0F /* AppDelegate.swift */,
 				CD449B401FA1EBFB00420E0F /* ViewController.swift */,
 				CD449B501FA1EC4400420E0F /* LeetCode.swift */,
+				CDAEFF0D1FA4589F00E1AB9C /* LeedCode */,
 				CD449B421FA1EBFB00420E0F /* Main.storyboard */,
 				CD449B451FA1EBFB00420E0F /* Assets.xcassets */,
 				CD449B471FA1EBFB00420E0F /* LaunchScreen.storyboard */,
 				CD449B4A1FA1EBFB00420E0F /* Info.plist */,
 			);
 			path = LeetCodeTest;
+			sourceTree = "<group>";
+		};
+		CDAEFF0D1FA4589F00E1AB9C /* LeedCode */ = {
+			isa = PBXGroup;
+			children = (
+				CDAEFF0F1FA4590600E1AB9C /* string */,
+				CDAEFF0E1FA458FD00E1AB9C /* array */,
+			);
+			path = LeedCode;
+			sourceTree = "<group>";
+		};
+		CDAEFF0E1FA458FD00E1AB9C /* array */ = {
+			isa = PBXGroup;
+			children = (
+				CDAEFF101FA4592200E1AB9C /* TwoSum.swift */,
+			);
+			path = array;
+			sourceTree = "<group>";
+		};
+		CDAEFF0F1FA4590600E1AB9C /* string */ = {
+			isa = PBXGroup;
+			children = (
+				CDAEFF121FA45A3000E1AB9C /* LongestSubstringWithoutRepeatingCharacters.swift */,
+			);
+			path = string;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +171,8 @@
 			files = (
 				CD449B411FA1EBFB00420E0F /* ViewController.swift in Sources */,
 				CD449B3F1FA1EBFB00420E0F /* AppDelegate.swift in Sources */,
+				CDAEFF111FA4592200E1AB9C /* TwoSum.swift in Sources */,
+				CDAEFF131FA45A3000E1AB9C /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
 				CD449B511FA1EC4400420E0F /* LeetCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
